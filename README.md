@@ -2,15 +2,15 @@
 
 Create and use the following student-society database schema for a college to answer the given (sample) queries using the standalone SQL editor.
 <br>
-Table -> STUDENT
+Table -> <b>STUDENT</b>
 <br>
 Roll No (Primary Key) - Char(6), StudentName - Varchar(20), Course - Varchar(10), DOB - Date
 <br>
-Table -> SOCIETY
+Table -> <b>SOCIETY</b>
 <br>
 SocID (Primary Key) - Char(6), SocName - Varchar(20), MentorName - Varchar(15), TotalSeats - Unsigned int
 <br>
-Table -> ENROLLMENT
+Table -> <b>ENROLLMENT</b>
 <br>
 Roll No (Foreign Key) - Char(6), SID (Foreign Key) - Char(6), DateOfEnrollment - Date
 <br>
